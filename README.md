@@ -9,6 +9,7 @@
     - Check if `ruby` is installed on your system via `ruby -v`
   - [**Nodejs**](https://nodejs.org/en) installed 
     - Check if `nodejs` is installed on your system via `node -v`
+  - [**Syllabus Generator (sgen)**](https://github.com/in-tech-gration/sgen)
 
 ## HOW CREATE A NEW X PLATFORM
 
@@ -38,6 +39,15 @@
   gem 'github-pages', group: :jekyll_plugins
   gem "webrick", "~> 1.8"
   ```
+
+  - Create a `README.yaml` file that includes the properties `input` and `output` which define a Markdown file used as a template and the output filename respectively.
+  
+  ```yaml
+  input: README.draft.md
+  output: index.md
+  ```
+
+  - Create the `README.draft.md`
 
 ## TODO
 
