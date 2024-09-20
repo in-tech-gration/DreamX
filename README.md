@@ -54,6 +54,10 @@
   - Create the `README.draft.md`
   - Run the `sgen README.yaml` command that will produce the `index.md` given the `README.draft.md` template.
 
+  - Include the files `_config.yml` and `_offline.yml` into your repo. `_config.yml` is a configuration file used for building the website using `Jekyll` on GitHub pages and `_offline.yml` is used for local web development, when running the `Jekyll` server locally via `npm run serve:jekyll`.
+
+  - Enable [GitHub Pages](https://docs.github.com/en/pages/quickstart) on the repository.
+
 ## TODO
 
-- [ ] Convert this repository to a GitHub Template
+  - [ ] Convert this repository to a GitHub Template
