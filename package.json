@@ -1,0 +1,13 @@
+{
+  "name": "dreamx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:jekyll": "bundle exec jekyll _3.9.3_ build --incremental --config _offline.yml",
+    "serve:jekyll": "bundle exec jekyll _3.9.3_ serve --incremental --config _offline.yml"
+  },
+  "keywords": [],
+  "author": "in-tech-gration",
+  "license": "ISC"
+}
