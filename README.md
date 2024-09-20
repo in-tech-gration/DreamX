@@ -48,6 +48,7 @@
   ```
 
   - Create the `README.draft.md`
+  - Run the `sgen README.yaml` command that will produce the `index.md` given the `README.draft.md` template.
 
 ## TODO
 
